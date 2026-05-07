@@ -1,0 +1,202 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #ffe27a;
+    overflow-x: hidden;
+}
+
+/* NAVBAR */
+
+.navbar{
+    background: #6b3f1d;
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.navbar-brand{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    color: #ffd800 !important;
+    text-shadow: 2px 2px #000;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #ffd800 !important;
+}
+
+/* HERO */
+
+.hero{
+    min-height: 100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+    url('https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=1600&auto=format&fit=crop');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+
+    padding: 80px 0;
+
+    position: relative;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 153, 255, 0.35);
+}
+
+.hero .container{
+    position: relative;
+    z-index: 2;
+}
+
+.hero h1{
+    font-size: 4rem;
+    font-family: 'Luckiest Guy', cursive;
+    color: #ffd800;
+    text-shadow: 4px 4px #000;
+}
+
+.hero p{
+    font-size: 1.3rem;
+    margin: 20px 0;
+    max-width: 600px;
+}
+
+/* BOTÃO */
+
+.btn-bob{
+    background: #ffd800;
+    color: #000;
+    border: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-bob:hover{
+    background: #ffb700;
+    transform: scale(1.05);
+}
+
+/* CARDÁPIO */
+
+.menu{
+    padding: 80px 0;
+    background: #ffe27a;
+}
+
+.section-title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3rem;
+    color: #0b2d5c;
+}
+
+/* CARDS */
+
+.menu-card{
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.menu-card:hover{
+    transform: translateY(-10px);
+}
+
+.menu-card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+.menu-card .card-body{
+    padding: 25px;
+}
+
+.menu-card h3{
+    font-weight: 700;
+    color: #0b2d5c;
+}
+
+.price{
+    font-size: 1.5rem;
+    color: #ff7b00;
+    font-weight: bold;
+}
+
+/* SOBRE */
+
+.about{
+    padding: 80px 0;
+    background: #00a6ff;
+    color: white;
+}
+
+.about h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.bob-img{
+    max-height: 400px;
+}
+
+/* FOOTER */
+
+footer{
+    background: #6b3f1d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* RESPONSIVO */
+
+@media(max-width: 768px){
+
+    .hero{
+        text-align: center;
+    }
+
+    .hero h1{
+        font-size: 2.8rem;
+    }
+
+    .hero p{
+        font-size: 1rem;
+    }
+
+}
