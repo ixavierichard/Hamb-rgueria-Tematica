@@ -1,2 +1,2 @@
-# Hamb-rgueria-Tematica
+# HamburgueriaTematica
 Bob Esponja
