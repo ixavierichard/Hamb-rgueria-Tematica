@@ -149,9 +149,22 @@ h1{
   
     background:
     linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url("fundo.png");
+    url("./Fotos/fundo.delivery.png");
   
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+  }
+
+  .titulo-bob{
+    font-family: 'Luckiest Guy', cursive;
+  }
+
+.famoso{
+    color: rgb(255, 255, 255);
+    font-family: 'Fredoka', sans-serif;
+}
+
+.cardapio{
+    color: rgb(255, 255, 255);
   }
