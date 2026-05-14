@@ -4,3 +4,85 @@ Bob Esponja
     font-family: 'Luckiest Guy', cursive;
 }
 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fundo2{
+    background-image: url(/Fotos/fundo2.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 100%;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+}
+
+nav a:hover{
+    color: #ffe066;
+    transform: scale(1.05);
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.4);
+    letter-spacing: 3px;
+}
+
+.combo2{
+    width: 850px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    padding: 20px;
+}
+
+.combos::-webkit-scrollbar{
+    display: none;
+}
+
+.combos div{
+    min-width: 100%;
+}
+
+.combos img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.combos img:hover{
+    transform: scale(1.02);
+}

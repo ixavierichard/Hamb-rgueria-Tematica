@@ -16,10 +16,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background: linear-gradient(to bottom, #419cd8, #167896);
-    min-height: 100vh;
-    padding-bottom: 50px;
+.fundo2{
+    background-image: url(/Fotos/fundo2.png);
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 nav{
@@ -67,14 +70,6 @@ h1{
     padding: 20px;
 }
 
-.combos{
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    scroll-behavior: smooth;
-    padding-bottom: 10px;
-}
-
 .combos::-webkit-scrollbar{
     display: none;
 }
@@ -94,3 +89,4 @@ h1{
 .combos img:hover{
     transform: scale(1.02);
 }
+
