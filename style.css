@@ -90,3 +90,48 @@ h1{
     transform: scale(1.02);
 }
 
+.menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(152, 152, 255);
+}
+.menu a{
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    padding: 10px 30px;
+
+    border-radius: 12px;
+
+    transition: 0.3s;
+
+    letter-spacing: 1px;
+}
+
+.menu{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 18px;
+
+    background: rgba(62, 150, 161, 0.75);
+
+    backdrop-filter: blur(8px);
+
+    border-bottom: 3px solid #ffd000;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
+    border-bottom: 3px solid #ffd000;
+}
