@@ -7,12 +7,13 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #26a5cc, #046092);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, #31a4c7, #0f6197);
+    color: rgb(255, 238, 0);
     min-height: 100vh;
 }
+
 header{
-    background: #050664;
+    background: #023047;
     padding: 25px 50px;
 
     display: flex;
@@ -23,10 +24,10 @@ header{
 }
 
 .logo{
-    font-family: 'Luckiest Guy', cursive;
     font-size: 2rem;
     font-weight: bold;
-    color: #ffd500;
+    color: #ffd60a;
+    font-family: 'Chewy', cursive;
 }
 
 nav{
@@ -36,9 +37,9 @@ nav{
 
 nav a{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: white;
     font-weight: bold;
-    transition: 2s;
+    transition: 0.3s;
 }
 
 nav a:hover{
@@ -46,21 +47,208 @@ nav a:hover{
 }
 
 .banner-delivery{
-    font-family: 'Luckiest Guy', cursive;
+    font-size: 3rem;
+    font-family: "Comic Sans MS", cursive;
     text-align: center;
     padding: 120px 30px;
-    background: rgba(255,255,255,0.1);
-     border-bottom: 4px solid rgba(255,255,255,0.2);
+    background-image:
+        linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0, 0, 0, 0.45)
+        ),
+        url('./Fotos/fundo.delivery\ \(2\).png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    border-bottom: 4px solid rgba(50, 36, 175, 0.2);
+    border-radius: 0 0 25px 25px;
+
+    transition: all 0.5s ease;
+    cursor: pointer;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.banner-delivery:hover{
+    transform: scale(1.03);
+    filter: brightness(110%);
+    box-shadow: 0 0 40px rgba(91, 255, 255, 0.6);
 }
 
 .banner-delivery h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
+    font-family: "Comic Sans MS", cursive;
+    color: #ffd700;
+    text-shadow:
+        3px 3px 0 #000,
+        6px 6px 10px rgba(0,0,0,0.5);
     margin-bottom: 20px;
 }
 
 .banner-delivery p{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
+    max-width: 800px;
+    margin: 20px auto 0;
+    line-height: 1.6;
+    letter-spacing: 1px;
 }
+
+.etapas{
+    padding: 80px 40px;
+}
+
+.etapas h2{
+    text-align: center;
+    font-size: 2.5rem;
+
+    margin-bottom: 50px;
+}
+
+.cards-delivery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 35px;
+}
+
+.etapa{
+    width: 280px;
+
+    background: white;
+    color: #333;
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+.etapa:hover{
+    transform: translateY(-10px);
+}
+
+.etapa h3{
+    margin-bottom: 15px;
+    color: #0077b6;
+}
+
+.etapa p{
+    line-height: 1.6;
+}
+
+.formulario{
+    padding: 80px 20px;
+}
+
+.formulario h2{
+    text-align: center;
+    font-size: 2.5rem;
+
+    margin-bottom: 40px;
+}
+
+.formulario form{
+    max-width: 700px;
+
+    margin: auto;
+
+    background: rgba(255,255,255,0.15);
+
+    padding: 40px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+.formulario input,
+.formulario textarea{
+    width: 100%;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 1rem;
+}
+
+.formulario textarea{
+    height: 150px;
+    resize: none;
+}
+
+.formulario button{
+    padding: 18px;
+
+    background: #ffd60a;
+
+    border: none;
+
+    border-radius: 12px;
+
+    font-size: 1.1rem;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.formulario button:hover{
+    transform: scale(1.03);
+}
+
+footer{
+    margin-top: 80px;
+
+    background: #023047;
+
+    text-align: center;
+
+    padding: 40px 20px;
+}
+
+footer p{
+    margin: 10px 0;
+}
+
+    header{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .banner-delivery h1{
+        font-size: 2.2rem;
+    }
+
+    .etapa{
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
 
 //////////////////////
 
