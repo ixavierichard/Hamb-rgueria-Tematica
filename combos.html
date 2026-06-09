@@ -1,46 +1,71 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Combos - Bob's Burger</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combos | Bob's Burger</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header class="topo">
-  <h1>🍔 Combos da Fenda do Biquíni</h1>
-  <p>Os melhores combos do fundo do mar!</p>
+<header>
+    <div class="logo">BOB'S BURGER</div>
+
+    <nav>
+        <a href="inicio.html">Início</a>
+        <a href="cardapio.html">Cardápio</a>
+        <a href="combos.html">Combos</a>
+        <a href="delivery.html">Delivery</a>
+        <a href="sobre.html">Sobre</a>
+        <a href="contato.html">Contato</a>
+    </nav>
 </header>
+
+<section class="banner-combos">
+    <h1>COMBOS ESPECIAIS DA FENDA</h1>
+    <p>Os melhores combos para matar sua fome no fundo do mar!</p>
+</section>
 
 <section class="combos">
 
-  <div class="card">
-    <img src="./img/combo-bob.png" alt="Combo Bob Esponja">
-    <h2>Combo Bob</h2>
-    <p>1 Krabby Burger + Batata + Refrigerante</p>
-    <span>R$ 29,90</span>
-    <button>Pedir agora</button>
-  </div>
+    <h2>Combos Promocionais</h2>
 
-  <div class="card">
-    <img src="./img/combo-patrick.png" alt="Combo Patrick">
-    <h2>Combo Patrick</h2>
-    <p>2 Burgers + Batata grande + Milkshake</p>
-    <span>R$ 39,90</span>
-    <button>Pedir agora</button>
-  </div>
+    <div class="grid-combos">
 
-  <div class="card">
-    <img src="./img/combo-squid.png" alt="Combo Lula Molusco">
-    <h2>Combo Lula Molusco</h2>
-    <p>Hambúrguer gourmet + Batata rústica + Chá gelado</p>
-    <span>R$ 34,90</span>
-    <button>Pedir agora</button>
-  </div>
+        <div class="combo-card">
+            <img src="./Fotos/combo bob.png" alt="Combo Bob" width="500">
+            <h3>Combo Bob</h3>
+            <p>Hambúrguer + Batata + Refrigerante</p>
+            <span>R$ 29,90</span>
+            <button>Peça Agora</button>
+        </div>
+
+        <div class="combo-card">
+            <img src="./Fotos/combo.molusco.png" alt="Combo Patrick" width="500">
+            <h3>Combo Patrick</h3>
+            <p>Duplo hambúrguer + batata grande</p>
+            <span>R$ 39,90</span>
+            <button>Peça Agora</button>
+        </div>
+
+        <div class="combo-card">
+            <img src="./Fotos/combo.patrik.png" alt="Combo Lula Molusco" width="500">
+            <h3>Combo Lula Molusco</h3>
+            <p>Hambúrguer gourmet + suco</p>
+            <span>R$ 34,90</span>
+            <button>Peça Agora</button>
+        </div>
+
+    </div>
 
 </section>
+
+<footer>
+    <p>Bob's Burger - Combos da Fenda do Biquíni</p>
+</footer>
 
 </body>
 </html>
