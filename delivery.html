@@ -1,77 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bob's Burger Delivery</title>
+  <title>Bob's Burger - Combos</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="logo">BOB'S BURGER</div>
 
-  <nav>
-        <a href="./inicio.html">Início</a>
-        <a href="./cardapio.html">Cardápio</a>
-        <a href="./combos.html">Combos</a>
-        <a href="#">Contato</a>
-  </nav>
+  <header class="header-container">
+    <div class="logo">BOB'S BURGER</div>
+    <nav>
+      <a href="./inicio.html">Início</a>
+      <a href="./cardapio.html">Cardápio</a>
+      <a href="./combos.html" class="active">Combos</a>
+      <a href="./delivery.html">Delivery</a>
+      <a href="#">Contato</a>
+    </nav>
+  </header>
 
-    <section class="banner-delivery">
-        <h1>DELIVERY DA FENDA DO BIQUÍNI</h1>
-        <p>Receba os hambúrgueres mais famosos do oceano sem sair de casa!</p>
-    </section>
+  <section class="banner-combos">
+    <h1>Combos Promocionais</h1>
+    <p>Ofertas especiais da Fenda do Biquíni</p>
+  </section>
 
-        <section class="etapas">
-        <h2>Como Funciona?</h2>
+  <section class="combos">
 
-        <div class="cards-delivery">
-
-            <div class="etapa">
-                <h3>1. Escolha</h3>
-                <p>Escolha seus hambúrgueres favoritos no cardápio.</p>
-            </div>
-
-            <div class="etapa">
-                <h3>2. Faça o Pedido</h3>
-                <p>Informe seus dados para entrega.</p>
-            </div>
-
-            <div class="etapa">
-                <h3>3. Preparo</h3>
-                <p>Nossa equipe prepara tudo fresquinho.</p>
-            </div>
-
-            <div class="etapa">
-                <h3>4. Entrega</h3>
-                <p>Levamos seu pedido até você.</p>
-            </div>
-
+    <div class="combo-card">
+      <div class="badge">-20%</div>
+      <div class="img-container">
+        <img src="./Fotos/combo.bob.png" alt="Combo Bob Clássico">
+      </div>
+      <div class="card-content">
+        <h3>Combo Bob Clássico</h3>
+        <div class="stars">⭐⭐⭐⭐☆</div>
+        <p>Hambúrguer + Batata + Refrigerante</p>
+        <div class="price">
+          <span class="old">R$ 34,90</span>
+          <span class="new">R$ 29,90</span>
         </div>
-    </section>
-    <section class="formulario">
+      </div>
+      <button>Adicionar ao pedido</button>
+    </div>
 
-        <h2>Dados para Entrega</h2>
+    <div class="combo-card destaque">
+      <div class="badge">MAIS PEDIDO</div>
+      <div class="img-container">
+        <img src="./img/combo2.jpg" alt="Combo Siri Especial">
+      </div>
+      <div class="card-content">
+        <h3>Combo Siri Especial</h3>
+        <div class="stars">⭐⭐⭐⭐⭐</div>
+        <p>2 Hambúrgueres + Batata grande + Refrigerante</p>
+        <div class="price">
+          <span class="old">R$ 49,90</span>
+          <span class="new">R$ 39,90</span>
+        </div>
+      </div>
+      <button>Adicionar ao pedido</button>
+    </div>
 
-        <form class="pedido"> 
+    <div class="combo-card">
+      <div class="badge">-15%</div>
+      <div class="img-container">
+        <img src="./img/combo3.jpg" alt="Combo Família Fenda">
+      </div>
+      <div class="card-content">
+        <h3>Combo Família Fenda</h3>
+        <div class="stars">⭐⭐⭐⭐☆</div>
+        <p>4 Hambúrgueres + 2 Batatas + 2 Refrigerantes</p>
+        <div class="price">
+          <span class="old">R$ 89,90</span>
+          <span class="new">R$ 79,90</span>
+        </div>
+      </div>
+      <button>Adicionar ao pedido</button>
+    </div>
 
-            <input type="text" placeholder="Nome Completo" required>
+  </section>
 
-            <input type="tel" placeholder="WhatsApp" required>
-
-            <input type="text" placeholder="Endereço" required>
-            <a href="cardapio.html">Acessar cardápio</a>
-
-            <button type="submit">
-                Confirmar pedido
-            </button>
-
-        </form>
-
-      </section>
-
-    <footer>
-        <p> Bob's Burguer - Delivery da Fenda do Biquíni </p>
-        <p> WhatsApp: (47) 00000-0000 </p>
-    </footer>
 </body>
 </html>
