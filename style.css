@@ -1,3 +1,50 @@
+//delivery
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to bottom, #26a5cc, #046092);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+}
+header{
+    background: #023047;
+    padding: 25px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd60a;
+}
+
+nav{
+    display: flex;
+    gap: 25px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ffd60a;
+}
+
+
 .fundo{
     background-image: url(/Fotos/fundo.jpg);
 
