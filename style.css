@@ -199,7 +199,7 @@ footer {
     font-family: "Comic Sans MS", cursive;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.45)),
-        url('./Fotos/combo.fundo.png');
+        url('./img/combo.fundo.png');
     background-size: cover;
     background-position: center;
     border-radius: 0 0 25px 25px;
