@@ -494,3 +494,433 @@ h1{
 .cardapio{
     color: rgb(255, 255, 255);
   }
+//////////////////////////
+  Home
+  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-home {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: "Comic Sans MS", cursive;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.45)),
+        url('./img/bobesponja.jpeg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 25px 25px;
+    transition: all 0.5s ease;
+}
+
+.banner-combos h1 {
+    font-size: 3rem;
+}
+
+.combos {
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.combos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.grid-combos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.combo-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.combo-card:hover {
+    transform: translateY(-8px);
+}
+
+.combo-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.combo-card h3 {
+    margin-top: 10px;
+    color: #023047;
+}
+
+.combo-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0f6197;
+    font-size: 1.2rem;
+}
+
+.combo-card button {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #023047;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.combo-card button:hover {
+    background: #035b8a;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 80px;
+    background: #023047;
+    text-align: center;
+    padding: 40px 20px;
+}
+@media (max-width: 900px) {
+nav {
+        flex-wrap: wrap;
+    }
+
+    .banner-combos h1 {
+        font-size: 2.2rem;
+    }
+}
+//////////////////////
+.cardapio
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-combos {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: "Comic Sans MS", cursive;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 25px 25px;
+    transition: all 0.5s ease;
+}
+
+.banner-combos h1 {
+    font-size: 3rem;
+}
+
+.combos {
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.combos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.grid-combos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.combo-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.combo-card:hover {
+    transform: translateY(-8px);
+}
+
+.combo-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.combo-card h3 {
+    margin-top: 10px;
+    color: #023047;
+}
+
+.combo-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0f6197;
+    font-size: 1.2rem;
+}
+
+.combo-card button {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #023047;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.combo-card button:hover {
+    background: #035b8a;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 80px;
+    background: #023047;
+    text-align: center;
+    padding: 40px 20px;
+}
+@media (max-width: 900px) {
+nav {
+        flex-wrap: wrap;
+    }
+
+    .banner-combos h1 {
+        font-size: 2.2rem;
+    }
+}
+/////////////////////////////////////
+cupons
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-combos {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: "Comic Sans MS", cursive;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 25px 25px;
+    transition: all 0.5s ease;
+}
+
+.banner-combos h1 {
+    font-size: 3rem;
+}
+
+.combos {
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.combos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.grid-combos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.combo-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.combo-card:hover {
+    transform: translateY(-8px);
+}
+
+.combo-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.combo-card h3 {
+    margin-top: 10px;
+    color: #023047;
+}
+
+.combo-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0f6197;
+    font-size: 1.2rem;
+}
+
+.combo-card button {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #023047;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.combo-card button:hover {
+    background: #035b8a;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 80px;
+    background: #023047;
+    text-align: center;
+    padding: 40px 20px;
+}
+@media (max-width: 900px) {
+nav {
+        flex-wrap: wrap;
+    }
+
+    .banner-combos h1 {
+        font-size: 2.2rem;
+    }
+}
+/////////////////////////////////////////
+clube
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner-combos {
+    text-align: center;
+    padding: 100px 20px;
+    font-family: "Comic Sans MS", cursive;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.45)),
+        url('./Fotos/combo.fundo.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 0 0 25px 25px;
+    transition: all 0.5s ease;
+}
+
+.banner-combos h1 {
+    font-size: 3rem;
+}
+
+.combos {
+    padding: 80px 30px;
+    text-align: center;
+}
+
+.combos h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.grid-combos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.combo-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.combo-card:hover {
+    transform: translateY(-8px);
+}
+
+.combo-card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.combo-card h3 {
+    margin-top: 10px;
+    color: #023047;
+}
+
+.combo-card span {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #0f6197;
+    font-size: 1.2rem;
+}
+
+.combo-card button {
+    width: 80%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    background: #023047;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.combo-card button:hover {
+    background: #035b8a;
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 80px;
+    background: #023047;
+    text-align: center;
+    padding: 40px 20px;
+}
+@media (max-width: 900px) {
+nav {
+        flex-wrap: wrap;
+    }
+
+    .banner-combos h1 {
+        font-size: 2.2rem;
+    }
+}
