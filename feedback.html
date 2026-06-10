@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feedback</title>
+
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <nav>
-        <a href="inicio.html">Início</a>
-        <a href="cardapio.html">Cardápio</a>
-        <a href="combos.html">Combos</a>
-        <a href="delivery.html">Delivery</a>
-        <a href="cupons.html">Cupons</a>
-        <a href="clube.html">Clube</a>
-        <a href="feedback.html">Feedback</a>
-    </nav>
+    <header>
+    <div class="logo">BOB'S BURGER</div>
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="cardapio.html">Cardápio</a>
+            <a href="combos.html">Combos</a>
+            <a href="delivery.html">Delivery</a>
+            <a href="cupons.html">Cupons</a>
+            <a href="clube.html">Clube</a>
+            <a href="feedback.html">Feedback</a>
+        </nav>
+    </header>
+
+    <section class="titulo-feedback">
+        <h1>Deixe sua Avaliação</h1>
+        <p>Sua opinião nos ajuda a melhorar!</p>
+    </section>
+
+    <section class="feedback-container">
+        <form class="feedback-form">
+            <input type="text" placeholder="Seu nome" required>
+
+            <select required>
+                <option value="">Dê uma nota</option>
+                <option>⭐ 1 Estrela</option>
+                <option>⭐⭐ 2 Estrelas</option>
+                <option>⭐⭐⭐ 3 Estrelas</option>
+                <option>⭐⭐⭐⭐ 4 Estrelas</option>
+                <option>⭐⭐⭐⭐⭐ 5 Estrelas</option>
+            </select>
+
+            <textarea placeholder="Conte como foi sua experiência..." rows="6"></textarea>
+            <button type="submit">Enviar Feedback</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Bob's Burger - Feedback dos Clientes</p>
+    </footer>
+
 </body>
 </html>

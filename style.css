@@ -6,8 +6,9 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #31a4c7, #0f6197);
+    text-align: center;
+    font-family: "Comic Sans MS", cursive;
+    background: linear-gradient(to bottom, #26829e, #0e5280);
     color: rgb(255, 238, 0);
     min-height: 100vh;
 }
@@ -18,7 +19,6 @@ body {
     color: #ffd60a;
     font-family: 'Chewy', cursive;
 }
-
 nav {
     display: flex;
     gap: 25px;
@@ -171,48 +171,18 @@ footer {
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: linear-gradient(to bottom, #31a4c7, #0f6197);
-    color: rgb(255, 238, 0);
-    min-height: 100vh;
-}
-
-.logo {
-    font-size: 2rem;
-    font-weight: bold;
-    color: #ffd60a;
-    font-family: 'Chewy', cursive;
-}
-
-nav {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
-    padding: 20px 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #ffd60a;
-}
 
 .banner-combos {
     text-align: center;
     padding: 100px 20px;
     font-family: "Comic Sans MS", cursive;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url('./Fotos/fundo-combos.png');
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.712), rgba(0,0,0,0.45)),
+        url('./Fotos/combo.fundo.png');
     background-size: cover;
     background-position: center;
-    color: #ffd60a;
     border-radius: 0 0 25px 25px;
+    transition: all 0.5s ease;
 }
 
 .banner-combos h1 {
@@ -294,7 +264,7 @@ footer {
     padding: 40px 20px;
 }
 @media (max-width: 900px) {
-    nav {
+nav {
         flex-wrap: wrap;
     }
 
@@ -302,6 +272,57 @@ footer {
         font-size: 2.2rem;
     }
 }
+//////////////////////
+//feedback
+.titulo-feedback {
+    font-family: Impact, Haettenschweiler, sans-serif;
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5));
+    color: #ffd60a;
+}
+
+.feedback-container {
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.feedback-form {
+    width: 100%;
+    max-width: 500px;
+    background: rgb(203, 208, 255);
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.493);
+}
+
+.feedback-form input,
+.feedback-form select,
+.feedback-form textarea {
+    padding: 15px;
+    border: 2px solid #8298b1;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.feedback-form button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #052d52;
+    color: rgb(211, 226, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.feedback-form button:hover {
+    background: #035b8a;
+}
+
 //////////////////////
 .fundo{
     background-image: url(/Fotos/fundo.jpg);
